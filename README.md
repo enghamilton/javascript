@@ -9,5 +9,5 @@ https://enghamilton.github.io/javascript/draganddropfileuploader.html
 english : drag and drop files to upload with progress bar using javascript jQuery /
 pt-BR : arraste e solte (com mouse de computador) arquivos para transferência de arquivos mostrando barra de progresso /
 español : arrasta y solta (con el mouse de ordenadora) para carga de arquivos en la carpeta en tu navegadora de internet
-exibindo la barra de progresso
-credits from : http://hayageek.com/drag-and-drop-file-upload-jquery/  https://plus.google.com/+RavishankerKusuma?prsrc=5
+exibindo la barra de progresso.
+Credits from : http://hayageek.com/drag-and-drop-file-upload-jquery/  https://plus.google.com/+RavishankerKusuma?prsrc=5
