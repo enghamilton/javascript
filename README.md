@@ -9,7 +9,7 @@ em javascript e jQuery em seu currículo, 40horas semanais, estimativa de 2-3 me
 
 
 https://enghamilton.github.io/javascript/draganddropfileuploader.html<br/>
-https://enghamilton.github.io/dragdropjavascript/dragndropblink.html<br/>
+https://enghamilton.github.io/dragdropjavascript/dragndropblink.html  works in IE10, Chrome v64 (Should) works<br/>
 english : drag and drop files to upload with progress bar using javascript jQuery<br/>
 pt-BR : arraste e solte (com mouse de computador) arquivos para transferência de arquivos mostrando barra de progresso<br/>
 español : arrasta y solta (con el mouse de ordenadora) para carga de arquivos en la carpeta en tu navegadora de internet
