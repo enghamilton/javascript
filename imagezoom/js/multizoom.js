@@ -1,4 +1,4 @@
-
+// Credits ImageZoomer dynamicdrive google seach with keyword image zooom javascript - hamilton 09/10/2017 thanks developers community
 // Multi-Zoom Script (c)2012 John Davenport Scheuer
 // as first seen in http://www.dynamicdrive.com/forums/
 // username: jscheuer1 - This Notice Must Remain for Legal Use
