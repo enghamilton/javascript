@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shop Item - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-item.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <script type="text/javascript" src="js/multizoom.js"></script>
+        <script type="text/javascript">
+
+        jQuery(document).ready(function($){
+
+			$('#image1').addimagezoom({ // single image zoom
+				zoomrange: [3, 10],
+				magnifiersize: [400,400],
+				magnifierpos: 'right',
+				cursorshade: true,
+				largeimage: 'images-camisadeempresa/camisa-social-longa-petrobras.jpg' //No comma after last option!
+
+			});
+
+			$('#image2').addimagezoom({
+				zoomrange: [3, 10],
+				magnifiersize: [300,300],
+				magnifierpos: 'right',
+				cursorshade: true,
+				largeimage: 'images/camisa.jpg'
+				});// single image zoom with default options
+
+			$('#multizoom1').addimagezoom({ // multi-zoom: options same as for previous Featured Image Zoomer's addimagezoom unless noted as '- new'
+				descArea: '#description', // description selector (optional - but required if descriptions are used) - new
+				speed: 1500, // duration of fade in for new zoomable images (in milliseconds, optional) - new
+				descpos: true, // if set to true - description position follows image position at a set distance, defaults to false (optional) - new
+				imagevertcenter: true, // zoomable image centers vertically in its container (optional) - new
+				magvertcenter: true, // magnified area centers vertically in relation to the zoomable image (optional) - new
+				zoomrange: [3, 10],
+				magnifiersize: [250,250],
+				magnifierpos: 'right',
+				cursorshadecolor: '#fdffd5',
+				cursorshade: true //-- No comma after last option!
+			});
+
+			$('#multizoom2').addimagezoom({ // multi-zoom: options same as for previous Featured Image Zoomer's addimagezoom unless noted as '- new'
+				descArea: '#description2', // description selector (optional - but required if descriptions are used) - new
+				disablewheel: true // even without variable zoom, mousewheel will not shift image position while mouse is over image (optional) - new
+						//-- No comma after last option!
+			});
+
+	});
+
+</script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" href="#">Camisa de empresa</a> -->
+				<a class="navbar-brand" href="#" style="float:right;font-size: 2.0em;font-family:'Oxygen', sans-serif;color: #FFFFFF;letter-spacing: -2px;line-height: 20px;font-size:20px;font-weight:bold;text-decoration:none;margin-left:1px;">camisadeempresa.com.br</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!--
+				<ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+				-->
+				<a href="index.html" style="text-decoration:none;"><img src="images/camisaclub_logo1.jpg" width="50px" style="border-radius: 50%;margin-left:300px;"></a>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+				<img src="images/camisaclub_logo.jpg">
+                <p class="lead">#vesteacamisa</p>
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">Category 1</a>
+                    <a href="#" class="list-group-item">Category 2</a>
+                    <a href="#" class="list-group-item">Category 3</a>
+                </div>
+            </div>			
+			
+            <div class="col-md-9">
+				        <img id="image1" src="images/camisa-polo-petrobras.jpg" width="300px" onmousedown="whichElement(event)" />
+                <div class="thumbnail">
+                    <img class="img-responsive" src="http://placehold.it/800x5" alt="">
+					
+                    <div class="caption-full">
+                        <h4 class="pull-right">$100</h4>
+                        <h4><a href="#">Product Name</a>
+                        </h4>
+                        <p>Product description here, size information, color information.</p>                       
+						<p>Forma de pagamento</p>
+						<p>Prazo de entrega</p>
+						<p>Local de entrega no Terminal de São Caetano, Rua Felipe Camarão 393</p>
+                    </div>					
+                    <div class="ratings">
+                        <p class="pull-right">3 reviews</p>						
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            4.0 stars
+                        </p>
+                    </div>
+                </div>
+
+                <div class="well">
+
+                    <div class="text-right">
+                        <a class="btn btn-success">Leave a Review</a>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            Anonymous
+                            <span class="pull-right">10 days ago</span>
+                            <p>This product was great in terms of quality. I would definitely buy another!</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            Anonymous
+                            <span class="pull-right">12 days ago</span>
+                            <p>I've alredy ordered another one!</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            Anonymous
+                            <span class="pull-right">15 days ago</span>
+                            <p>I've seen some better than this, but not at this price. I definitely recommend this item.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
