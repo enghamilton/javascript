@@ -18,3 +18,7 @@ Credits from : http://hayageek.com/drag-and-drop-file-upload-jquery/  google plu
 contrate um programador full stack, front end HTML5, javascript jQuery 1.10.1 (e AJAX) e back end php (upload de arquivos)
 2 anos de experiência, 40 horas semanais, estimativa 3-5 meses. Arraste e solta com border blink e background color blink
 exige conhecimento em criar function javascript com setInterval, e jQuery('#WriteYourNodeClassNameHere').bind();
+
+https://enghamilton.github.io/javascript/imagezoom<br/>
+Tested success in IE 10. Chrome version 60.1 should works (something went wrong).<br/>
+E-commerce online shop item on mouse hover zooming edge cursor display zoomer image.
