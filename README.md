@@ -22,3 +22,6 @@ exige conhecimento em criar function javascript com setInterval, e jQuery('#Writ
 https://enghamilton.github.io/javascript/imagezoom<br/>
 Tested success in IE 10. Chrome version 60.1 should works (something went wrong).<br/>
 E-commerce online shop item on mouse hover zooming edge cursor display zoomer image.
+
+https://enghamilton.github.io/javascript/photoswipe.html</br>
+For mobile image gallery
